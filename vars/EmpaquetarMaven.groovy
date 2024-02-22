@@ -3,6 +3,6 @@
 def call(){
     sh '''
     cd java-app/ && /
-    mvn -B -DskipTests clean install
+    mvn -B -DskipTests clean package
     '''
 }
